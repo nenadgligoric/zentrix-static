@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Crypteck
+Theme URI: https://crypteck.jwsuperthemes.com
+Author: the JWSThemes team
+Author URI: https://jwsuperthemes.com
+Description: CrypteckBIT is a WordPress theme built on Elementor page builder to easily create Crypto based project website easily. Anyone can easily build a single page or multipage cryptocurrency related business website with Crypteck. Cryptocurrency table with recent price update via API is included. You display details of any coin present in CoinGecko without any extra hastel.
+Requires at least: WordPress 4.9.6
+Version: 2.0.1
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/lgpl-3.0.en.html
+Text Domain: crypteck
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+:root {
+    --main: #CBFB45;
+    --secondary: #161617;
+    --neutral: #232325;
+    --darker: #000000;
+    --text: #898990;
+    --whiter: #F3F3F3;
+    --white: #ffffff;
+    --dark: #151517;
+    --green: #70833C;
+    --heading: #f3f3f3;
+    --body: #898990;
+    --bodybg: #ffffff;
+    --btn-color: #151517;
+    --btn-color2: #F3F3F3;
+    --btn-bgcolor: #CBFB45;
+    --e-global-color-primary: #CBFB45;
+    --e-global-color-secondary: #ffffff;
+    --menu-color: #ffffff;
+}
+
+.btn-theme {
+    background: var(--main);
+    color: #ffffff;
+    height: 50px;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+button.btn-theme {
+    border: 0;
+}
